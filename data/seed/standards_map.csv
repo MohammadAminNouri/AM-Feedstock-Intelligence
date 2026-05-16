@@ -1,0 +1,6 @@
+standard_or_document,scope,feedstock_class,processes,repo_use,public_url,notes
+ASTM F3509-25,metal powder feedstock test-method guide,metal powder,PBF;BJT;DED,"powder characterization, test methods",https://store.astm.org/f3509-25.html,"Use as a standards pointer, not a replacement for purchasing the standard."
+ASTM F3049-14(2021),guide for characterizing metal powders used for AM,metal powder,PBF;BJT;DED,virgin/used powder characterization references,https://www.astm.org/f3049-14r21.html,Good source for what properties must be characterized.
+ISO/ASTM 52928:2024,metal powder life-cycle management,metal powder,powder-based metal AM,"powder lifecycle, quality assurance, test methods",https://www.iso.org/obp/ui/en/,Track lifecycle from virgin powder to reuse and retirement.
+ISO/ASTM 52900,AM terminology,all,all,process/category vocabulary,https://www.iso.org/standard/74514.html,Use for terminology alignment if contributor adds new processes.
+SDS / TDS supplier documents,safety and technical datasheets,all,all,"hazards, storage, process windows, properties",supplier-specific,Always store URL/date; do not redistribute copyrighted/confidential PDFs unless permitted.

@@ -1,0 +1,9 @@
+segment,family,market_pull,trend_label,why_it_matters,watch_items
+Ti-6Al-4V powder,metal,aerospace/medical/consumer titanium,hot,"recycled titanium powder adoption, high qualification barrier, oxygen control","watch recycled powder standards, Apple-scale signals, aerospace demand"
+AlSi10Mg powder,metal,lightweight LPBF aluminum,growing,common LPBF alloy; price-sensitive; competition from AlSi7Mg and high-strength Al alloys,track crack-free high strength aluminum alloys
+IN718 powder,metal,superalloy LPBF/DED,stable/growing,aerospace/energy demand but high QA costs,track powder reuse and HIP/post-processing requirements
+PA12 powder,polymer,SLS/MJF production polymer,stable/hot,"strong installed base, high reuse focus, production parts",track refresh ratios and bio-based alternatives
+PA11 powder,polymer,bio-based SLS/MJF alternative,growing,castor-oil bio-based narrative and toughness vs PA12,track price premium and machine availability
+PA-CF filament,polymer_composite,engineering FFF,hot,"low barrier, strong GitHub/demo interest, functional parts",track drying/reproducibility and nozzle wear
+PPS/PEEK/PEKK filament,polymer,high-temperature FFF,niche/hot,"requires high-temp printer, valuable for chemical/thermal applications",track printer ecosystem and material cost
+Resins,photopolymer,SLA/DLP prototyping and dental,stable/growing,"fast iteration and dental workflows, but waste/safety concerns",track biocompatible certified resins and vat waste

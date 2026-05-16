@@ -1,0 +1,7 @@
+supplier_type,definition,default_confidence,procurement_questions
+atomizer,Makes metal powder directly by gas/plasma/EIGA/VIGA/water atomization,high for powder origin,"Ask for CoA, PSD, chemistry, O/N/H, flow, apparent/tap density, lot traceability"
+machine_oem,Printer OEM selling qualified materials,high for machine compatibility; price often quote-only,Ask if powder is private-label and which machine/profile/reuse limits apply
+material_manufacturer,Compounds/extrudes polymers or produces feedstock,medium-high,"Ask for diameter tolerance, drying, MFI/MVR, batch traceability, SDS/TDS"
+reseller,Sells OEM/manufacturer feedstock,medium,Ask whether price includes VAT/shipping and whether product is current stock
+marketplace,"Aggregated suppliers, often uncertain origin",low,Use only as weak price signal until supplier and certificate verified
+commodity_supplier,Generic welding wire/pellets/raw material supplier,low-medium,"Useful for WAAM/FGF cost benchmark, but AM qualification must be separate"

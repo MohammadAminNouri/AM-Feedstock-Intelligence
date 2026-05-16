@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AM Powder Record",
+  "type": "object",
+  "required": [
+    "material_family",
+    "material_group",
+    "grade_or_alloy",
+    "powder_name",
+    "processes",
+    "source_url",
+    "source_accessed_date",
+    "confidence"
+  ],
+  "properties": {
+    "material_family": {"type": "string", "examples": ["metal", "polymer", "ceramic"]},
+    "material_group": {"type": "string", "examples": ["Ti", "Ni", "Fe", "Al", "PA12"]},
+    "grade_or_alloy": {"type": "string", "examples": ["Ti-6Al-4V Grade 23", "316L", "AlSi10Mg"]},
+    "powder_name": {"type": "string"},
+    "supplier": {"type": "string"},
+    "manufacturer": {"type": "string"},
+    "country_or_region": {"type": "string"},
+    "processes": {"type": "array", "items": {"type": "string"}},
+    "psd_um": {"type": "string", "examples": ["15-45", "15-53", "45-105"]},
+    "atomization_or_production": {"type": "string", "examples": ["GA", "VIGA", "EIGA", "PREP", "cryogenic milling", "polymerization"]},
+    "morphology": {"type": "string", "examples": ["spherical", "near-spherical", "irregular"]},
+    "density_g_cm3": {"type": ["number", "null"]},
+    "quantity_kg": {"type": ["number", "null"]},
+    "currency": {"type": ["string", "null"]},
+    "total_price": {"type": ["number", "null"]},
+    "unit_price_per_kg": {"type": ["number", "null"]},
+    "price_type": {"type": "string", "enum": ["public_list", "request_quote", "distributor_estimate", "marketplace", "manual_quote", "unknown"]},
+    "lead_time": {"type": ["string", "null"]},
+    "source_url": {"type": "string"},
+    "source_accessed_date": {"type": "string", "format": "date"},
+    "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+    "notes": {"type": "string"}
+  }
+}

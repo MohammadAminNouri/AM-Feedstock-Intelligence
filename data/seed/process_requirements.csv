@@ -1,0 +1,12 @@
+process,feedstock_class,main_material_family,typical_size_or_diameter,preferred_shape_or_form,critical_requirements,qualification_barrier,risk_notes
+LPBF,powder,metal,15-53,spherical/near-spherical,"flowability, low satellites, low oxygen/moisture, machine-qualified PSD",high,Ti and Al powders need inert handling; Ni/Co dust hazards
+EBM,powder,metal,45-106,spherical/near-spherical,"conductivity, preheat behavior, powder cake recovery, vacuum compatibility",high,mostly conductive metals; coarser powder than LPBF
+DED,powder,metal,45-150,spherical/near-spherical,"nozzle flow, carrier gas, low fines, catch efficiency",medium,broader PSD tolerated; powder efficiency matters
+Binder Jetting,powder,metal/ceramic,5-45,spherical or irregular,"packing density, sinterability, binder compatibility, shrinkage control",medium,part cost dominated by sintering yield and shrinkage
+SLS,powder,polymer,40-120,near-spherical/irregular,"thermal window, refresh ratio, cake aging, powder flow",medium,aging and refresh ratio are critical
+MJF,powder,polymer,40-100,engineered polymer powder,"fusing-agent absorption, refresh ratio, thermal aging",medium,ecosystem compatibility matters
+FFF/FDM,filament,polymer/composite,n/a,continuous filament,"diameter tolerance, moisture, melt flow, bed adhesion, nozzle abrasion",low-medium,drying dominates nylons/PC/PEEK; enclosure for warping materials
+FGF,pellet,polymer/composite,n/a,pellets/granules,"pellet size consistency, drying, screw wear, melt stability",low-medium,good for recycled and low-cost large-format printing
+SLA/DLP/MSLA,resin,photopolymer,n/a,liquid resin,"viscosity, exposure profile, shelf life, post-cure, biocompatibility",medium,uncured resin handling and waste are major issues
+WAAM/wire DED,wire,metal,n/a,wire,"diameter tolerance, chemistry, shielding gas, arc/laser stability",medium,lower feedstock cost than powder but lower resolution
+LCM/DLP ceramic,ceramic_slurry,ceramic,submicron-micron ceramic particles,slurry,"viscosity, solid loading, sedimentation, debinding/sintering shrinkage",high,process-specific shrinkage compensation required

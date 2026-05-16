@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AM Feedstock Record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "feedstock_class",
+    "material_family",
+    "material_group",
+    "grade_or_alloy",
+    "product_name",
+    "supplier",
+    "processes",
+    "price_type",
+    "source_accessed_date",
+    "confidence"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "description": "Stable unique identifier"
+    },
+    "feedstock_class": {
+      "type": "string",
+      "enum": [
+        "powder",
+        "filament",
+        "resin",
+        "pellet",
+        "wire",
+        "paste",
+        "ceramic_slurry",
+        "sheet",
+        "other"
+      ]
+    },
+    "material_family": {
+      "type": "string"
+    },
+    "material_group": {
+      "type": "string"
+    },
+    "grade_or_alloy": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "supplier": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "supplier_type": {
+      "type": "string"
+    },
+    "processes": {
+      "type": "string",
+      "description": "Semicolon-separated AM processes"
+    },
+    "form_factor": {
+      "type": "string"
+    },
+    "diameter_mm": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "package_quantity": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "package_unit": {
+      "type": "string"
+    },
+    "psd_um": {
+      "type": "string"
+    },
+    "particle_shape": {
+      "type": "string"
+    },
+    "production_route": {
+      "type": "string"
+    },
+    "density_g_cm3": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "currency": {
+      "type": "string"
+    },
+    "package_price": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "normalized_price_per_kg": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "normalized_price_per_l": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "price_type": {
+      "type": "string",
+      "enum": [
+        "public_list",
+        "request_quote",
+        "distributor_estimate",
+        "marketplace",
+        "manual_quote",
+        "unknown"
+      ]
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_accessed_date": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "handling_risks": {
+      "type": "string"
+    },
+    "qualification_level": {
+      "type": "string"
+    },
+    "sustainability_signal": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

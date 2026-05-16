@@ -1,0 +1,88 @@
+# Public source registry. Keep selectors conservative. Never bypass paywalls, logins, robots, or quote-only systems.
+sources:
+  - id: additiveplus_316l
+    name: Additive Plus 316L LPBF powder
+    url: https://additiveplus.com/product/316l-stainless-steel-powder-for-metal-3d-printing-lpbf-compatible-10-kg-22-lbs/
+    type: public_list
+    expected_material: 316L
+    expected_unit: USD
+    notes: Public ecommerce page; values may change.
+  - id: additiveplus_ti64
+    name: Additive Plus Ti-6Al-4V LPBF powder
+    url: https://additiveplus.com/product/a-powder-ti-6al-4v-ti64-titanium-powder-for-metal-3d-printing-lpbf-compatible-10-kg-22-lbs/
+    type: public_list
+    expected_material: Ti-6Al-4V
+    expected_unit: USD
+  - id: additiveplus_in718
+    name: Additive Plus Inconel 718 LPBF powder
+    url: https://additiveplus.com/product/a-powder-inconel-718-nickel-superalloy-powder-for-metal-3d-printing-lpbf-compatible-10-kg-22-lbs/
+    type: public_list
+    expected_material: Inconel 718
+    expected_unit: USD
+  - id: additiveplus_alsi10mg
+    name: Additive Plus AlSi10Mg LPBF powder
+    url: https://additiveplus.com/product/a-powder-alsi10mg-aluminum-powder-for-metal-3d-printing-lpbf-compatible-10-kg-22-lbs/
+    type: public_list
+    expected_material: AlSi10Mg
+    expected_unit: USD
+  - id: qualloy_alsi10mg
+    name: Qualloy AlSi10Mg
+    url: https://qualloy.com/materials/aluminium/AlSi10Mg-20-63-1
+    type: public_list
+    expected_material: AlSi10Mg
+    expected_unit: EUR
+  - id: renishaw_powders
+    name: Renishaw AM powders category
+    url: https://store.renishaw.com/en-AE/category/additive-manufacturing-powders
+    type: request_quote
+    expected_material: mixed
+    expected_unit: null
+
+  - id: prusament_pla
+    name: Prusament PLA material page
+    url: https://prusament.com/materials/pla/
+    type: public_list
+    expected_material: PLA filament
+    expected_unit: USD/EUR
+  - id: matterhackers_nylonx
+    name: MatterHackers NylonX PA12-CF filament
+    url: https://www.matterhackers.com/store/3d-printer-filament/nylonx-carbon-fiber-nylon-filament-1.75mm
+    type: public_list
+    expected_material: PA12-CF filament
+    expected_unit: USD
+  - id: polymaker_fiberon
+    name: Polymaker Fiberon engineering filament collection
+    url: https://shop.polymaker.com/collections/fiberon
+    type: public_list
+    expected_material: engineering composite filaments
+    expected_unit: USD
+  - id: formfutura_asa
+    name: FormFutura ASA filament collection
+    url: https://www.formfutura.com/filaments/asa
+    type: public_list
+    expected_material: ASA filament
+    expected_unit: EUR
+  - id: formlabs_grey_v5_3dcut
+    name: Formlabs Grey Resin V5 reseller page
+    url: https://www.3dcut.it/en/prodotto/formlabs-grey-resin-v5-1-l/
+    type: public_list
+    expected_material: SLA resin
+    expected_unit: EUR
+  - id: eos_pa2200
+    name: EOS PA 2200 Polyamide 12
+    url: https://store.eos.info/products/pa-2200-polyamide-12
+    type: request_quote
+    expected_material: PA12 powder
+    expected_unit: null
+  - id: hp_pa12
+    name: HP High Reusability PA12 materials page
+    url: https://www.hp.com/it-it/printers/3d-printers/high-reusability-3d-printing-plastic-materials.html
+    type: request_quote
+    expected_material: PA12 MJF powder
+    expected_unit: null
+  - id: carlroth_ultrasint_pa11
+    name: Carl Roth Ultrasint PA11 5 kg
+    url: https://www.carlroth.com/com/en/pa11/ultrasint-pa-11/p/26xl.3
+    type: public_list
+    expected_material: PA11 powder
+    expected_unit: EUR

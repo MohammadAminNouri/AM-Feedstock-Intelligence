@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "am-feedstock-intelligence"
+version = "0.1.0"
+description = "Open AM feedstock database for powders, filaments, resins, pellets, prices, suppliers, suitability, and trend signals."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "AM Powder Intelligence Contributors" }]
+license = { text = "MIT" }
+dependencies = [
+  "pandas>=2.0",
+  "pydantic>=2.0",
+  "pyyaml>=6.0",
+  "requests>=2.31",
+  "beautifulsoup4>=4.12",
+  "lxml>=4.9",
+  "python-dateutil>=2.8"
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.32", "plotly>=5.18"]
+dev = ["pytest>=7.4", "ruff>=0.4", "mypy>=1.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

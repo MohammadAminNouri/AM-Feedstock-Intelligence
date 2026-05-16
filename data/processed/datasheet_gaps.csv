@@ -1,0 +1,28 @@
+record_id,product_name,feedstock_class,material_family,gap_score,missing_datasheet_fields
+MET-FE-316L-AP-001,316L Stainless Steel Powder LPBF 10 kg,powder,metal,22,chemistry;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;SDS_url
+MET-FE-316L-WURTH-001,316L Stainless Steel Alloy Powder 15-53 µm,powder,metal,11,chemistry;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;production_route;SDS_url
+MET-AL-ALSI10MG-AP-001,A-Powder AlSi10Mg Aluminum Powder LPBF 10 kg,powder,metal,0,chemistry;PSD;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;production_route;SDS_url
+MET-AL-ALSI10MG-QUA-001,AlSi10Mg 20-63 µm,powder,metal,11,chemistry;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;production_route;SDS_url
+MET-TI-TI64-G5-AP-001,A-Powder Ti-6Al-4V Grade 5 LPBF 10 kg,powder,metal,22,chemistry;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;SDS_url
+MET-TI-TI64-G23-AP-001,A-Powder Ti-6Al-4V Grade 23 ELI LPBF 10 kg,powder,metal,22,chemistry;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;SDS_url
+MET-NI-IN718-AP-001,A-Powder Inconel 718 LPBF 10 kg,powder,metal,22,chemistry;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;SDS_url
+POL-PA12-AP-001,KSPA12 Nylon Powder SLS 10 kg,powder,polymer,0,PSD;bulk_density;melting_point;crystallization_window;refresh_ratio;moisture;SDS_url
+POL-PA12-MIC-001,PA12 SLS Additive Manufacturing Nylon,powder,polymer,0,PSD;bulk_density;melting_point;crystallization_window;refresh_ratio;moisture;SDS_url
+MET-FE-316L-REN-001,Stainless steel 316L powder,powder,metal,0,chemistry;PSD;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;production_route;SDS_url
+MET-NI-IN625-REN-001,Inconel 625 powder,powder,metal,0,chemistry;PSD;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;production_route;SDS_url
+MET-FE-MARAGING-REN-001,Maraging Steel powder,powder,metal,0,chemistry;PSD;morphology;apparent_density;tap_density;flowability;oxygen_nitrogen_hydrogen;production_route;SDS_url
+FIL-PLA-PRUSAMENT-001,Prusament PLA Galaxy Black 1.75 mm,filament,polymer,38,tolerance;drying_temperature;nozzle_temperature;bed_temperature;SDS_url
+FIL-PLA-PRUSAMENT-2KG-001,Prusament PLA 2 kg spool variants,filament,polymer,38,tolerance;drying_temperature;nozzle_temperature;bed_temperature;SDS_url
+FIL-PA12CF-NYLONX-MH-001,MatterHackers NylonX Carbon Fiber PA12 1.75 mm 0.5 kg,filament,polymer_composite,0,
+FIL-PA6CF-POLYMAKER-001,Polymaker Fiberon PA6-CF20 1.75 mm,filament,polymer_composite,0,
+FIL-PPSCF-POLYMAKER-001,Polymaker Fiberon PPS-CF10 1.75 mm,filament,polymer_composite,0,
+FIL-ASACF-POLYMAKER-001,Polymaker Fiberon ASA-CF08 1.75 mm,filament,polymer_composite,0,
+FIL-ASA-FORMFUTURA-APOLLOX-001,FormFutura ApolloX ASA filament,filament,polymer,12,tolerance;net_weight;density;drying_temperature;nozzle_temperature;bed_temperature;SDS_url
+RES-SLA-FORMLABS-GREY-V5-001,Formlabs Grey Resin V5 1 L,resin,photopolymer,14,viscosity;wavelength;printer_compatibility;post_cure;shelf_life;SDS_url
+POW-PA12-HP-MJF-001,HP 3D High Reusability PA 12,powder,polymer,0,PSD;bulk_density;melting_point;crystallization_window;refresh_ratio;moisture;SDS_url
+POW-PA12-EOS-PA2200-001,EOS PA 2200 Polyamide 12,powder,polymer,14,bulk_density;melting_point;crystallization_window;refresh_ratio;moisture;SDS_url
+POW-PA11-BASF-ULTRASINT-001,Forward AM / BASF Ultrasint PA11 powder 5 kg,powder,polymer,0,PSD;bulk_density;melting_point;crystallization_window;refresh_ratio;moisture;SDS_url
+POW-PA11CF-BASF-F2P-001,BASF Ultrasint PA11 Black CF powder,powder,polymer_composite,0,
+PEL-PLA-FORMFUTURA-EASYFIL-001,FormFutura EasyFil ePLA pellets,pellet,polymer,0,pellet_size;MFI_or_MVR;drying_condition;density;recycled_content;SDS_url
+WIRE-AL-ER4043-DED-001,Aluminum ER4043 welding wire as WAAM/DED candidate,wire,metal,0,
+SLU-ALUMINA-LITHOZ-001,Alumina ceramic photopolymer slurry candidate,ceramic_slurry,ceramic,0,

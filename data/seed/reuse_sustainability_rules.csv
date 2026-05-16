@@ -1,0 +1,7 @@
+feedstock_segment,processes,what_to_track,why_it_matters
+metal powder,LPBF/EBM,"track virgin/used blend ratio, O/N/H, PSD shift, satellites/spatter, flowability, sieving losses",reuse saves cost but can harm qualification if chemistry/PSD drifts
+polymer powder,SLS/MJF,"track cake age, refresh ratio, moisture, yellowness/orange peel, ductility shift",reuse is often a core economic advantage but not infinite
+filament,FDM,"track failed-print scrap, spool waste, refill availability, recycled content",filament is cheap but creates spool and purge waste
+resin,SLA/DLP,"track vat waste, filtered reuse, shelf life, wash solvent, uncured resin disposal",waste and safety dominate sustainability
+pellet,FGF,"track recycled content, drying, contamination, grind/re-extrude route",strong route for large-format recycled feedstocks
+wire,WAAM/wire DED,"track trimming, spatter, shielding gas, buy-to-fly ratio",often high material utilization and cheaper feedstock than powder
