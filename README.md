@@ -1,3 +1,4 @@
+[![Update AM feedstock public data](https://github.com/MohammadAminNouri/AM-Feedstock-Intelligence/actions/workflows/update.yml/badge.svg)](https://github.com/MohammadAminNouri/AM-Feedstock-Intelligence/actions/workflows/update.yml)
 # AM Feedstock Intelligence
 
 **AM Feedstock Intelligence** is an open-source database and analytics toolkit for additive-manufacturing feedstocks: **metal powders, polymer powders, FDM/FFF filaments, SLA/DLP resins, pellets/granules, wires, ceramic slurries, composites, suppliers, real public prices, quote status, process suitability, reuse risk, and trend signals.**
